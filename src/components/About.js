@@ -43,7 +43,7 @@ export default function About() {
                             aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne"
                         >
-                            About Text Analyser
+                            <b>About Text Analyser</b>
                         </button>
                     </h2>
                     <div
@@ -68,7 +68,7 @@ export default function About() {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo"
                         >
-                            Our Mission
+                            <b>Our Mission</b>
                         </button>
                     </h2>
                     <div
@@ -92,7 +92,7 @@ export default function About() {
                             aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree"
                         >
-                            Features
+                            <b>Features</b>
                         </button>
                     </h2>
                     <div

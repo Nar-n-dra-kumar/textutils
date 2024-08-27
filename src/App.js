@@ -32,8 +32,8 @@ function App() {
       showAlert("Light mode has been enabled", "success");
     } else {
       setMode('dark');
-      document.body.style.backgroundColor = 'rgb(2 38 74)'; // Replace with your preferred color
-      document.body.style.color = '#fff'; // Replace with your preferred color
+      document.body.style.backgroundColor = 'rgb(2 38 74)'; 
+      document.body.style.color = '#fff'; 
       showAlert("Dark mode has been enabled", "success");
     }
   }
@@ -47,6 +47,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/" element={<TextForm showAlert={showAlert} heading="ENTER TEXT TO ANALYZE" mode={mode} />} />
           </Routes>
+          {/* <TextForm showAlert={showAlert} heading="ENTER TEXT TO ANALYZE" mode={mode} />
+          <About /> */}
         </div>
       </Router>
     </>
